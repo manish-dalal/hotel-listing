@@ -28,8 +28,9 @@ After Node is installed in your system, follow the below steps.
 
 1. Navigate to the directory where you want to store the app.
 2. Clone the repo `git clone https://github.com/manish-dalal/hotel-listing.git`
-3. Now install all modules listed as dependencies in `package.json` by running the command `npm install`
-4. Launch the app with this command `npm start`
+3. Create a .env file in the root directory like the .env.example file.
+4. Now install all modules listed as dependencies in `package.json` by running the command `npm install`
+5. Launch the app with this command `npm start`
 
 A new browser window open automatically displaying the app.  If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
 
