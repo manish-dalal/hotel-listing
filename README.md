@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# hotel-listing | THOUGHTCLAN FULLSTACK DEVELOPER HIRING CHALLENGE
+Develop a full-stack application for Singapore Hotel listings. You are expected to use the dump provided and write an end to end web app. Your backend should expose APIs containing the hotel listings data which your frontend should consume and list them on the frontend.
 
-## Available Scripts
+## How to run the project online
+Open the online demo [here](https://manish-dalal.github.io/hotel-listing)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Use of CSV file and dump it in the database.
+- Write a functional backend and frontend in the tech stack mentioned below.
+- The data sharing between backend and frontend must be in JSON via REST APIs.
+- List all the Hotel listings on the front end.
+- Implement functionality to search hotels by name.
+- Provide feature to sort articles by price.
+- Implement Filter based on region.
+- Zip all your source code, executables, screenshots, and upload.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## GUIDE
 
-### `npm test`
+- Guide: [hck.re/singapore](hck.re/singapore)
+- TechStack : Java Spring, Angular/ReactJs, Any DB of your choice.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to run the project in Development Mode
+The project uses [Node.js >= 6.x](https://nodejs.org/en/) and the [Create-React-App starter code](https://github.com/facebookincubator/create-react-app).
 
-### `npm run build`
+After Node is installed in your system, follow the below steps.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Navigate to the directory where you want to store the app.
+2. Clone the repo `git clone https://github.com/manish-dalal/hotel-listing.git`
+3. Now install all modules listed as dependencies in `package.json` by running the command `npm install`
+4. Launch the app with this command `npm start`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+A new browser window open automatically displaying the app.  If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+***NOTE:*** *The service workers for this app will only cache the site when it is in production mode.*
 
-### `npm run eject`
+## How to run the project in Production Mode
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Build the production ready optimised code. `npm run build`
+2. Deploy it to `gh-pages` branch by `npm run deploy`
+3. Check the online demo [here](https://manish-dalal.github.io/hotel-listing)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
+Project Home Page
+<img src="ScreenShot/1.png"></img>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Search Feature
+<img src="ScreenShot/2.png"></img>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Filter based on region
+<img src="ScreenShot/3.png"></img>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Sort Feature
+<img src="ScreenShot/4.png"></img>
